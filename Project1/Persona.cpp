@@ -1,5 +1,10 @@
 #include "Persona.h"
 
+Persona::Persona()
+{
+    //Aqui va el constructor
+}
+
 string Persona::getNombre() const
 {
     return nombre;
