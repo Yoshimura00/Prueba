@@ -1,8 +1,10 @@
 #include "Persona.h"
 
 Persona::Persona()
-{
-    //Aqui va el constructor
+{   
+    this->edad = 0;
+    this->nombre = "SN";
+    //se modifico el constructor
 }
 
 string Persona::getNombre() const
