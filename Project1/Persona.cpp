@@ -7,6 +7,11 @@ Persona::Persona()
     //se modifico el constructor
 }
 
+Persona::~Persona()
+{
+    //constructor con parametros
+}
+
 string Persona::getNombre() const
 {
     return nombre;
