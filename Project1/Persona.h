@@ -1,4 +1,9 @@
+
+#pragma once
 #include <iostream>
+#include <random>
+#include <ctime>
+#include<cstdlib>
 
 using namespace std;
 #pragma once
@@ -18,5 +23,9 @@ public:
 
     int getEdad() const;
     void setEdad(int edad);
+	int h();
 
+	float random_float(float min, float max);
+	float aleatorioFloat();
+	float random();
 };
